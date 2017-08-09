@@ -179,8 +179,8 @@ PRODUCT_PACKAGES += \
     WeatherProvider \
     OmniStyle \
     OmniJaws \
-    ThemeInterfacer
-
+    ThemeInterfacer \
+    SnapdragonGallery
 
 WITH_ROOT_METHOD ?= rootless
 ifeq ($(WITH_ROOT_METHOD), magisk)
