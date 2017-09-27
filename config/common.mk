@@ -171,7 +171,6 @@ PRODUCT_PACKAGES += \
     Trebuchet \
     AudioFX \
     CMFileManager \
-    Eleven \
     LockClock \
     CMSettingsProvider \
     ExactCalculator \
