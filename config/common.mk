@@ -52,10 +52,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGES += \
    ThemeInterfacer
 
-# Enable Google Assistant on all devices.
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.opa.eligible_device=true
-
 # Default notification/alarm sounds
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.notification_sound=Argon.ogg \
@@ -81,9 +77,7 @@ PRODUCT_COPY_FILES += \
 
 # Included prebuilt apk's
 PRODUCT_PACKAGES += \
-    DeskClock \
-    NexusLauncher \
-    Wallpaper
+    DeskClock
 
 # DU Utils Library
 PRODUCT_BOOT_JARS += \
@@ -174,8 +168,6 @@ PRODUCT_PACKAGES += \
 
 # Custom CM packages
 PRODUCT_PACKAGES += \
-    ResurrectionOTA \
-    ResurrectionStats \
     Trebuchet \
     AudioFX \
     CMFileManager \
@@ -183,11 +175,9 @@ PRODUCT_PACKAGES += \
     LockClock \
     CMSettingsProvider \
     ExactCalculator \
-    Jelly \
     LiveLockScreenService \
     WeatherProvider \
     OmniStyle \
-    OmniSwitch \
     OmniJaws \
     ThemeInterfacer
 
