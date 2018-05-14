@@ -18,7 +18,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 
 # Default notification/alarm sounds
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.config.notification_sound=Argon.ogg \
+    ro.config.notification_sound=Rhea.ogg \
     ro.config.alarm_alert=Hassium.ogg
 
 ifneq ($(TARGET_BUILD_VARIANT),user)
@@ -155,7 +155,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     AudioFX \
     LineageSettingsProvider \
-    Eleven \
     ExactCalculator \
     Trebuchet \
     LockClock \
@@ -164,9 +163,7 @@ PRODUCT_PACKAGES += \
     WallpaperPicker \
     WeatherProvider \
     OmniJaws \
-    OmniStyle \
-    ResurrectionOTA \
-    ResurrectionStats
+    OmniStyle
 
 # Berry styles
 PRODUCT_PACKAGES += \
@@ -258,8 +255,7 @@ PRODUCT_COPY_FILES += \
 
 # Included prebuilt apk's
 PRODUCT_PACKAGES += \
-    GoogleClock \
-    Wallpapers
+    GoogleClock
 
 # rsync
 PRODUCT_PACKAGES += \
