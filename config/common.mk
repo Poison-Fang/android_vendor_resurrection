@@ -169,7 +169,6 @@ PRODUCT_PACKAGES += \
 # Custom CM packages
 PRODUCT_PACKAGES += \
     Trebuchet \
-    AudioFX \
     CMFileManager \
     LockClock \
     CMSettingsProvider \
@@ -314,6 +313,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 PRODUCT_EXTRA_RECOVERY_KEYS += \
   vendor/cm/build/target/product/security/lineage
+
+# MusicFX advanced effects
+PRODUCT_PACKAGES += \
+    libcyanogen-dsp \
+    audio_effects.conf \
+    MusicFX
 
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
 -include vendor/cm/config/partner_gms.mk
