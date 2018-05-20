@@ -54,7 +54,7 @@ PRODUCT_PACKAGES += \
 
 # Default notification/alarm sounds
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.config.notification_sound=Argon.ogg \
+    ro.config.notification_sound=Rhea.ogg \
     ro.config.alarm_alert=Hassium.ogg
 
 ifneq ($(TARGET_BUILD_VARIANT),user)
