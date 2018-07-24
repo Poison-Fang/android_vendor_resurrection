@@ -9,12 +9,11 @@ PRODUCT_COPY_FILES += \
 # Telephony packages
 PRODUCT_PACKAGES += \
     messaging \
-    Stk \
     CellBroadcastReceiver
 
 # Default ringtone
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.config.ringtone=Orion.ogg
+    ro.config.ringtone=Phobos.ogg
 
 # Tethering - allow without requiring a provisioning app
 # (for devices that check this)
