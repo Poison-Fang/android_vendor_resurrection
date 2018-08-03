@@ -44,7 +44,8 @@ PRODUCT_COPY_FILES += \
     vendor/rr/prebuilt/common/bin/backuptool.sh:install/bin/backuptool.sh \
     vendor/rr/prebuilt/common/bin/backuptool.functions:install/bin/backuptool.functions \
     vendor/rr/prebuilt/common/bin/blacklist:system/addon.d/blacklist \
-    vendor/rr/prebuilt/common/bin/clean_cache.sh:system/bin/clean_cache.sh
+    vendor/rr/prebuilt/common/bin/clean_cache.sh:system/bin/clean_cache.sh \
+    vendor/rr/prebuilt/common/bin/free_space.sh:system/bin/free_space.sh
 
 ifeq ($(AB_OTA_UPDATER),true)
 PRODUCT_COPY_FILES += \
