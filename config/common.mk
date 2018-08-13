@@ -215,6 +215,13 @@ PRODUCT_PACKAGES += \
     wget \
     zip
 
+# Copy to System fonts
+PRODUCT_COPY_FILES += \
+    vendor/rr/prebuilt/fonts/gobold/Gobold.ttf:system/fonts/Gobold.ttf \
+    vendor/rr/prebuilt/fonts/roadrage/road_rage.ttf:system/fonts/RoadRage-Regular.ttf \
+    vendor/rr/prebuilt/fonts/snowstorm/snowstorm.ttf:system/fonts/Snowstorm-Regular.ttf \
+    vendor/rr/prebuilt/fonts/vcrosd/vcr_osd_mono.ttf:system/fonts/ThemeableFont-Regular.ttf
+
 # Charger
 PRODUCT_PACKAGES += \
     charger_res_images
