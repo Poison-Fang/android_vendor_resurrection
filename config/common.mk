@@ -223,6 +223,13 @@ PRODUCT_PACKAGES += \
     wget \
     zip
 
+# Copy to System fonts
+PRODUCT_COPY_FILES += \
+    vendor/cm/prebuilt/fonts/roadrage/road_rage.ttf:system/fonts/RoadRage-Regular.ttf \
+    vendor/cm/prebuilt/fonts/snowstorm/snowstorm.ttf:system/fonts/Snowstorm-Regular.ttf \
+    vendor/cm/prebuilt/fonts/googlesans/GoogleSans-Medium.ttf:system/fonts/GoogleSans-Medium.ttf \
+    vendor/cm/prebuilt/fonts/vcrosd/vcr_osd_mono.ttf:system/fonts/ThemeableFont-Regular.ttf
+
 # Custom off-mode charger
 ifneq ($(WITH_CM_CHARGER),false)
 PRODUCT_PACKAGES += \
